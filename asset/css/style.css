@@ -30,7 +30,7 @@ font-family: Poppins;
 line-height: 2.8rem;
 }
 body{
-     --primary-color:white;
+     --primary-color:#FFFCF4;
      /* white; */
      /* #FFFCF4; */
      
@@ -39,13 +39,14 @@ body{
 /* ======================Header================ */
     /* ==========Navigation======= */
 header{
-    background-color: var(--primary-color);
+    background-color: rgba(255,255,255,0.8);
+    backdrop-filter: blur(2px);
+
     position: sticky;
     top: 0;
     z-index: 1;
 }
 header .content{
-   
     padding: 3.6rem 0 1rem 0;
 }
 header .navigation .content{
@@ -120,8 +121,8 @@ box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
 display: flex;
 flex-direction: column;
 justify-content: center;
-gap:1.4rem; */
-align-items: center; 
+gap:1.4rem;
+/* align-items: center;  */
 }
 .hero .content-1-2 .row{
     margin-left: 2.4rem;
@@ -272,6 +273,12 @@ line-height: 3rem; /* 166.667% */
 .course .box-course{
 width: 37rem;
 flex-shrink: 0;
+border-radius: 1.2rem;
+border: 1px solid #E2DFDA; 
+}
+.course .sub-box-course{
+   margin-left: 1rem;
+   margin-right: 1rem;
 }
 .course .box-course .image{
     width: 37rem;
@@ -339,4 +346,53 @@ padding-right: 30px;
 .button_book:hover{
     border-radius: 2.5rem;
 background: #FFB900;
+}
+
+    /*=============feedback============  */
+.feedback{
+    margin-top: 20rem;
+    background-color: #2E2100;
+    padding: 9.6rem 0 9.6rem 0;
+}
+.feedback .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.feedback  .avatar{
+    width: 7.2rem;
+    height: 7.2rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1.8rem;
+}
+.feedback .name{
+    color: #F7F7F7;
+font-family: Sen;
+font-size: 2.4rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.4rem; /* 141.667% */
+}
+.feedback .desc{
+    color: #BFBCB2;
+font-family: Poppins;
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.6rem; /* 185.714% */
+margin-bottom: 2.8rem;
+}
+.feedback .content-2{
+ width:77rem ;
+}
+.feedback .quote{
+    color: #FFF;
+font-family: Poppins;
+font-size: 2.6rem;
+font-style: italic;
+font-weight: 400;
+line-height: 4rem; /* 153.846% */
+margin-left: 2rem;
 }
