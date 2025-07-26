@@ -30,6 +30,7 @@ font-family: Poppins;
 line-height: 2.8rem;
 }
 body{
+    
      --primary-color:#FFFCF4;
      /* white; */
      /* #FFFCF4; */
@@ -396,4 +397,56 @@ font-style: italic;
 font-weight: 400;
 line-height: 4rem; /* 153.846% */
 margin-left: 2rem;
+}
+/* ============feature========== */
+.feature{
+    margin-top: 200px;
+}
+.feature .content {
+    display: flex;
+    align-items: center;
+}
+.feature .person-feature{
+    margin-right:3rem ;
+}
+.feature .person-feature2{
+    margin-bottom: 3.3rem;
+    margin-right: 13rem;
+}
+.feature .content-main {
+    width: 47rem;
+}
+.feature .content-main .heading{
+    color: #171100;
+font-family: Sen;
+font-size: 3.8rem;
+font-style: normal;
+font-weight: 700;
+line-height: 4.8rem; /* 126.316% */
+letter-spacing: -0.076rem;
+}
+.feature .content-main  .desc{
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    color: #5F5B53;
+font-family: Poppins;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.8rem; /* 175% */
+}
+.feature .content-main  .btn{
+    display: inline-block;
+    margin-top: 3.2rem;
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 600;
+line-height: 2.8rem; /* 175% */
+transition: 0.2s;
+}
+.feature .content-main  .btn:hover{
+    background: #FFB900;
 }
