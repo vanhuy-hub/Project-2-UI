@@ -1,0 +1,1 @@
+alert("Xin chào đã đến Web của tôi");
